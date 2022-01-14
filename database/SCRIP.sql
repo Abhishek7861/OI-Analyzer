@@ -1,0 +1,8 @@
+CREATE TABLE SCRIP (
+    id int NOT NULL AUTO_INCREMENT,
+    name varchar(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+
+INSERT INTO SCRIP (name) VALUES ('NIFTY');
